@@ -11,7 +11,7 @@ namespace Course {
 
             List<Employee> list = new List<Employee>();
 
-            for (int i = 1; i <= n; i++) {
+            for (int i = 1; i <= n+1; i++) {
                 Console.WriteLine("Employee #" + i + ":");
                 Console.Write("Id: ");
                 int id = int.Parse(Console.ReadLine());
